@@ -83,25 +83,31 @@ button {
 .layer--envelope {
   z-index: 1;
   background-image: url("/thu.png");
-  transform-origin: 50% 57%; /* <--- Tâm phong bì trong ảnh */
+
+  transform-origin: 50% 57%;
+
   transition:
-    opacity 700ms ease,
-    transform 1200ms cubic-bezier(0.22, 1, 0.36, 1),
-    filter 700ms ease;
+    opacity 1500ms ease-in-out,
+    transform 1500ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 1500ms ease-in-out;
 }
 
 /* --- Lớp 3: THƯ MỞ – mặc định ẩn --- */
 .layer--open {
   z-index: 2;
   background-image: url("/thu-mo.png");
+
   opacity: 0;
-  transform: scale(1.035);
+
+  transform: scale(1.04);
   transform-origin: 50% 57%;
+
   filter: blur(3px);
+
   transition:
-    opacity 900ms ease,
-    transform 1200ms cubic-bezier(0.22, 1, 0.36, 1),
-    filter 900ms ease;
+    opacity 1500ms ease-in-out,
+    transform 1500ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 1500ms ease-in-out;
 }
 
 /* --- ĐANG ĐÓNG: phong bì lơ lửng mời bấm --- */
@@ -263,7 +269,7 @@ button {
 
 /* Dear my love */
 .line-1 {
-  top: 32%;
+  top: 33%;
   left: 16%;
 
   font-weight: 600;

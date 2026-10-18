@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
    ========================================================= */
 type LetterPhase = "closed" | "open" | "closing";
 
-const CLOSE_DURATION = 1200;
+const CLOSE_DURATION = 1000;
 
 /* =========================================================
    HIỆU ỨNG VIẾT CHỮ
@@ -17,7 +17,7 @@ const TYPE_START_DELAY = 900;
 /* Tốc độ viết từng ký tự
    Số nhỏ = nhanh
    Số lớn = chậm */
-const TYPE_SPEED = 70;
+const TYPE_SPEED = 80;
 
 /* =========================================================
    NỘI DUNG THƯ
@@ -34,19 +34,19 @@ const LINES = [
     className: "line-1",
   },
   {
-    text: "Hi, Chúc Cún của anh có một ngày thật là hạnh phúc!",
+    text: "Hi... Chúc Cún của anh có một ngày thật là hạnh phúc nhé!",
     className: "line-2",
   },
   {
-    text: "Thế giới ngoài kia dù có tệ với em thế nào đi chăng nữa",
+    text: "Mong rằng mọi điều tốt đẹp nhất luôn đến với bé Cún của anh",
     className: "line-3",
   },
   {
-    text: "thì vẫn có anh ở đây với em, ôm em, lắng nghe em ",
+    text: "Anh sẽ bên cạnh em, lắng nghe em và đồng hành cùng em",
     className: "line-4",
   },
   {
-    text: "và đồng hành cùng em.",
+    text: "trên từng bước nhỏ với chặng đường dài phía trước.",
     className: "line-5",
   },
   {
@@ -58,7 +58,7 @@ const LINES = [
     className: "line-7",
   },
   {
-    text: "Yêu em ♡",
+    text: "Yêu em ♡ ",
     className: "line-8",
   },
 ].map((line) => ({
