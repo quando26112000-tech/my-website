@@ -1,0 +1,5 @@
+# The app lives in the "Message gift" subfolder, so build from there.
+[build]
+  base = "Message gift"
+  command = "pnpm install --frozen-lockfile && pnpm build"
+  publish = "dist"
