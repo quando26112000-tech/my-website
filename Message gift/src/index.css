@@ -219,7 +219,7 @@ button {
   color: #684b32;
 
   font-family: "Dancing Script", cursive;
-  font-size: clamp(0.72rem, 2.6vw, 0.95rem);
+  font-size: clamp(0.72rem, 3vw, 1.05rem);
 
   letter-spacing: 0.03em;
 
@@ -300,7 +300,7 @@ button {
 /* Dòng 5 */
 .line-5 {
   top: 46.5%;
-  left: 17%;
+  left: 15%;
 }
 
 

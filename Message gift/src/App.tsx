@@ -34,11 +34,11 @@ const LINES = [
     className: "line-1",
   },
   {
-    text: "Hi... Chúc Cún của anh có một ngày thật là hạnh phúc nhé!",
+    text: "Hi... Chúc Cún của anh có một ngày thật là hạnh phúc ạ!",
     className: "line-2",
   },
   {
-    text: "Mong rằng mọi điều tốt đẹp nhất luôn đến với bé Cún của anh",
+    text: "Mong mọi điều tốt đẹp nhất luôn đến với bé Cún của anh",
     className: "line-3",
   },
   {
