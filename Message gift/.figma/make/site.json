@@ -1,0 +1,11 @@
+{
+  "title": "Message",
+  "description": "Delivers an interactive mobile-friendly letter animation that prompts users to open and read authentic, visually engaging message content.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
